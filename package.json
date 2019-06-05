@@ -8,7 +8,7 @@
 	"license": "MIT",
 	"private": false,
 	"scripts": {
-		"start": "node ."
+		"start": "node bot"
 	},
 	"dependencies": {
 		"discord.js": "^11.5.1",
