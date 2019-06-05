@@ -1,13 +1,17 @@
 {
-  "name": "cacadora-fama-bot",
-  "version": "1.0.0",
-  "description": "A discord bot",
-  "main": "server.js",
-  "repository": "git@github.com:mateusmforte/cacadora-fama-bot.git",
-  "author": "Mateus Moura forte <m-forte@hotmail.com>",
-  "license": "MIT",
-  "private": false,
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+	"name": "cacadora-fama-bot",
+	"version": "1.0.0",
+	"description": "A discord bot",
+	"main": "server.js",
+	"repository": "git@github.com:mateusmforte/cacadora-fama-bot.git",
+	"author": "Mateus Moura forte <m-forte@hotmail.com>",
+	"license": "MIT",
+	"private": false,
+	"scripts": {
+		"start": "node ."
+	},
+	"dependencies": {
+		"discord.js": "^11.5.1",
+		"express": "^4.17.1"
+	}
 }
