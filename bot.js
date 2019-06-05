@@ -45,4 +45,4 @@ bot.on('message', async msg => {
 		msg.channel.send(`${userTrapped} caiu na trap da Karolzynha!!!`);
 	}
 });
-bot.login(botconfig.token);
+bot.login(process.env.token);
